@@ -1,128 +1,189 @@
 <!DOCTYPE html>
-<html>
-<title>My Portfolio</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body class="w3-content" style="max-width:1300px">
-
-<!-- First Grid: Logo & About -->
-<div class="w3-row">
-  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
-    <div class="w3-padding-64">
-      <h1>My Logo</h1>
-    </div>
-    <div class="w3-padding-64">
-      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a>
-      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">My Work</a>
-      <a href="#work" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Resume</a>
-      <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Contact</a>
-    </div>
-  </div>
-  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
-    <div class="w3-padding-64 w3-center">
-      <h1>About Me</h1>
-      <img src="wallhaven-ey7rqr.jpg" class="w3-margin w3-circle" alt="Person" style="width:50%">
-      <div class="w3-left-align w3-padding-large">
-        <p>Hello! I'm sergi, a student on Application Developing and Java Programming focused on building the best applications and have a great time with it!</p>
-        <p>Java programming is my main but I really like UI design and web making. Hold tight and read these page to know more about me!</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <h1>The Designers Weblog</h1>
+        <ul class="nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </div>
-    </div>
-  </div>
-</div>
-
-<!-- Second Grid: Work & Resume -->
-<div class="w3-row">
-  <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="work">
-    <div class="w3-padding-64">
-      <h2>My Work</h2>
-      <p>You can see all my big projects in my GitHub</p>
-      <a href="https://github.com/SergiAlcoria" target="_blank"><button class="w3-button w3-border w3-hover-light-blue">GitHub</button></a>
-    </div>
-  </div>
-  <div class="w3-half w3-indigo w3-container" style="min-height:800px">
-    <div class="w3-padding-64 w3-center">
-      <h2>Resume</h2>
-      <p>A draft from my CV</p>
-      <div class="w3-container w3-responsive">
-        <table class="w3-table">
-          <tr>
-            <th>Year</th>
-            <th>Title</th>
-            <th>Where</th>
-          </tr>
-          <tr class="w3-white">
-            <td>2019 - </td>
-            <td>DAW (Web Application Developing)</td>
-            <td>Institut Sa Palomera, Blanes, Spain</td>
-          </tr>
-          <tr class="w3-white">
-            <td>2018 - 2019</td>
-            <td>Web developing and hosting - Grupo Actialia</td>
-            <td>Palafolls, Spain</td>
-          </tr>
-          <tr>
-            <td>2017 - 2019</td>
-            <td>SMX (Systems and Networking)</td>
-            <td>Institut Sa Palomera, Blanes, Spain</td>
-          </tr>
-          <p>Other Certificates</p>
-          <tr>
-            <td>2017</td>
-            <td>B2 Cambridge Certificate</td>
-            <td>Escola Pia Santa Ana, Mataró, Spain</td>
-          </tr>
-          <tr class="w3-white">
-            <td>2017</td>
-            <td>MOS Word, Excel, Access, Power Point</td>
-            <td>Institut Sa Palomera, Blanes, Spain</td>
-          </tr>
-        </table>
+      <div id="container">
+        <span class="tl"></span><span class="tr"></span>
+        <div class="post">
+            
+        </div>
+        <div class="flair1" role="presentation"></div>
+        <div class="flair2" role="presentation"></div>
+        <div class="flair3" role="presentation"></div>
+        <div class="flair4" role="presentation"></div>
+        <div class="flair5" role="presentation"></div>
+        <div class="extra6" role="presentation"></div>
+        <span class="bl"></span><span class="br"></span>
       </div>
-    </div>
-  </div>
-</div>
-
-<!-- Third Grid: Swing By & Contact -->
-<div class="w3-row" id="contact">
-  <div class="w3-half w3-dark-grey w3-container w3-center" style="height:700px">
-    <div class="w3-padding-64">
-      <h1>Swing By</h1>
-    </div>
-    <div class="w3-padding-64">
-      <p>..for a cup of coffee, or whatever.</p>
-      <p>Palafolls, Spain</p>
-      <p>+34 677371648</p>
-      <p>sergialcoria@gmail.com</p>
-    </div>
-  </div>
-  <div class="w3-half w3-teal w3-container" style="height:700px">
-    <div class="w3-padding-64 w3-padding-large">
-      <h1>Contact</h1>
-      <p class="w3-opacity">GET IN TOUCH</p>
-      <form class="w3-container w3-card w3-padding-32 w3-white" target="_blank" action="mailto:sergialcoria@gmail.com">
-        <div class="w3-section">
-          <label>Name</label>
-          <input class="w3-input" style="width:100%;" type="text" required name="Name">
-        </div>
-        <div class="w3-section">
-          <label>Email</label>
-          <input class="w3-input" style="width:100%;" type="text" required name="Email">
-        </div>
-        <div class="w3-section">
-          <label>Message</label>
-          <input class="w3-input" style="width:100%;" type="text" required name="Message">
-        </div>
-        <input type="submit" value="Send">
-        <input type="reset" value="Reset">
-      </form>
-    </div>
-  </div>
-</div>
-
-<!-- Footer -->
-<footer class="w3-container w3-black w3-padding-16">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
 </body>
+<script>
+// Hide the current .post div
+let oldPost = document.querySelector(".post");
+oldPost.style.display = "none";
+
+// Add a banner under the header and...
+let header = document.getElementById("header");
+let banner = document.createElement("div");
+banner.setAttribute("class", "banner");
+header.after(banner);
+
+// create a list of topics for the blog
+const topicsArray = [
+  "css",
+  "html",
+  "flash",
+  "php",
+  "photoshop",
+  "interface",
+  "web design",
+  "skeumorphin",
+  "texture",
+  "pixel fonts"
+];
+let topicTitle = document.createElement("h4");
+topicTitle.innerText = "topics";
+let topics = document.createElement("ul");
+
+topicsArray.forEach((topic) => {
+  let topicItem = document.createElement("li");
+  topicItem.innerText = topic;
+  topics.appendChild(topicItem);
+});
+// Update CSS property that determines number of columns in grid
+let r = document.querySelector(":root");
+r.style.setProperty("--num-of-topics", topicsArray.length);
+
+// Add a search bar to the banner
+const searchBar = document.createElement("div");
+searchBar.setAttribute("class", "searchbar");
+const input = document.createElement("input");
+input.setAttribute("type", "text");
+input.setAttribute("placeholder", "search topics...");
+const button = document.createElement("button");
+button.innerText = "Go";
+searchBar.appendChild(input);
+searchBar.appendChild(button);
+
+banner.appendChild(topicTitle);
+banner.appendChild(topics);
+banner.appendChild(searchBar);
+
+// Create a new .post div and populate with cards
+let container = document.getElementById("container");
+let post = document.createElement("div");
+post.setAttribute("class", "post");
+document.body.append(post);
+
+// Data for the cards
+const cardsData = [
+  {
+    cardNum: 1,
+    title: 'Rounded Corners in "just" 40 Lines of Code',
+    body: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nostrum vero minima minus delectus, magni facere velit mollitia!"
+    ]
+  },
+  {
+    cardNum: 2,
+    title: "Design Inspiration for this Week's Challenge",
+    list: [
+      {
+        text: "45 More Excellent Blog Designs from Smashing Magazine, 2008",
+        link:
+          "https://www.smashingmagazine.com/2008/02/45-more-excellent-blog-designs/"
+      },
+      {
+        text:
+          "Grunge, y2k aesthetic, and paper texture designs from 2000-2009 at the Web Design Museum",
+        link:
+          "https://www.webdesignmuseum.org/flash-websites/page/2/style/Grunge,Y2K%20Aesthetic,Paper"
+      },
+      {
+        text: "Flowers Feed the Soul at The Favorite Website Awards, 2006",
+        link: "https://thefwa.com/cases/flowers-feed-the-soul"
+      }
+    ],
+    body: [
+      "Iusto cumque quasi ratione modi fugiat necessitatibus corporis, magnam, veniam molestias voluptatum expedita dolorum, ullam recusandae optio officiis molestiae quidem provident porro architecto hicperferendis consequuntur dicta. Dolorem laboriosam ipsa ipsum minus minima quibusdam quam sunt nullaeaque neque et soluta explicabo deleniti dolore, dolor quia est nam eos, quod, optio quis. Velit inanimi harum quidem amet tenetur dignissimos quis recusandae sunt corrupti error rem vero, quae liberoveritatis asperiores voluptates.",
+      "Dolorem laboriosam ipsa ipsum minus minima quibusdam quam sunt nullaeaque neque et soluta explicabo deleniti dolore, dolor quia est nam eos, quod, optio quis. Velit inanimi harum quidem amet tenetur dignissimos quis recusandae sunt corrupti error rem vero, quae liberoveritatis asperiores voluptates."
+    ]
+  },
+  {
+    cardNum: 3,
+    title: "Fire Up Photoshop, It's Skeumorphin Time",
+    body: [
+      "Cupiditate odit laborum exercitationem ut veniam enim, aut officia aspernatur, cumque ipsam voluptatibusneque architecto voluptatum! Doloremque voluptate dolore pariatur illum aliquid sed minima autem sunt! Aspernatur rem doloremque enim magnam, cupiditate beatae, quae ea odio eius ducimus vel fuga essedolorum ut commodi consequuntur! Similique in animi rem minus dicta impedit quaerat nemo! Tempore, in. Ut veniam temporibus, ratione iste odio ipsa consectetur blanditiis repellat maxime? Facilis nisi eiusvoluptatem.",
+      "Laborum exercitationem ut veniam enim, aut officia aspernatur, cumque ipsam voluptatibusneque architecto voluptatum! Doloremque voluptate dolore pariatur illum aliquid sed minima autem sunt! Aspernatur rem doloremque enim magnam, cupiditate beatae, quae ea odio eius ducimus vel fuga essedolorum ut commodi consequuntur! Similique in animi rem minus dicta impedit quaerat nemo! Tempore, in. Ut veniam temporibus, ratione iste odio ipsa consectetur blanditiis repellat maxime? Facilis nisi eiusvoluptatem."
+    ]
+  },
+  {
+    cardNum: 4,
+    title:
+      "If your web design doesn't have a paper texture, is it really design?",
+    body: [
+      "Laboriosam cumque quam delectus earum voluptatibus aliquam perspiciatis maxime minima ipsum repellendus magnam dolorum ad provident, alias inventore sit quo reiciendis ex odio. Quae est distinctio atque officiis id soluta impedit eius odio deserunt modi. Odit unde labore error cupiditate, dicta solutarepellendus esse adipisci molestias culpa numquam quae itaque voluptatum, officia voluptatem saepe placeat nihil, dolor dolores omnis aut? Eveniet unde blanditiis recusandae eaque voluptate voluptas fugit neque veniam! Earum cumque itaque maxime hic illo unde eius architecto omnis nisi ab ea repudiandae magnam delectus sunt tempore placeat aperiam, facere possimus numquam soluta quidem deserunt dolores voluptates. Consectetur provident deserunt quis! Quidem nemo ullam expedita a rem dolor modi sitaliquam, vitae adipisci quibusdam consequatur voluptates, voluptatem consectetur at ex commodi faceremolestias natus repellat ipsa. Eius maxime, est, accusamus aspernatur laudantium, quam fuga undeconsequuntur non corrupti iste eligendi. Omnis, accusantium accusamus? Hic aspernatur error ullam,nostrum molestiae beatae cumque facilis quo voluptatem. Suscipit eligendi magnam adipisci.",
+      "Cupiditate odit laborum exercitationem ut veniam enim, aut officia aspernatur, cumque ipsam voluptatibusneque architecto voluptatum! Doloremque voluptate dolore pariatur illum aliquid sed minima autem sunt! Aspernatur rem doloremque enim magnam, cupiditate beatae, quae ea odio eius ducimus vel fuga essedolorum ut commodi consequuntur! Similique in animi rem minus dicta impedit quaerat nemo! Tempore, in. Ut veniam temporibus, ratione iste odio ipsa consectetur blanditiis repellat maxime? Facilis nisi eiusvoluptatem."
+    ]
+  },
+  {
+    cardNum: 5,
+    title: "Here comes CSS3!",
+    body: [
+      "Molestias commodi quaerat debitis eos voluptas voluptatum corporis nisi libero magnam facilis sapiente tempora eligendi, nulla asperiores sunt blanditiis sequi aperiam molestiae! Quo tenetur vitae voluptatibus corrupti necessitatibus neque nulla a, accusantium repellat provident. Exercitationem maiores nam animi dolore impedit provident vero debitis libero ducimus necessitatibus rerum quisquam esse ex, doloremque voluptatem quam aliquid. Repudiandae, numquam! Fugiat aut ad ipsa explicabo ut laboriosam molestiae corrupti quidem! Quis natus blanditiis iusto facilis odit!"
+    ]
+  }
+];
+
+// Creates the cards and populates them with the cardData array
+const createCards = () => {
+  cardsData.forEach((item) => {
+    let card = document.createElement("div");
+    card.setAttribute("class", `card card-${item.cardNum}`);
+    let h2 = document.createElement("h2");
+    h2.innerText = item.title;
+    card.appendChild(h2);
+    if (item.list) {
+      let ul = document.createElement("ul");
+      for (let j = 0; j < item.list.length; j++) {
+        let li = document.createElement("li");
+        let a = document.createElement("a");
+        a.setAttribute("href", item.list[j].link);
+        a.setAttribute("target", "blank");
+        a.innerText = item.list[j].text;
+        li.appendChild(a);
+        ul.appendChild(li);
+      }
+
+      card.appendChild(ul);
+    }
+    for (let i = 0; i < item.body.length; i++) {
+      let p = document.createElement("p");
+      p.innerText = item.body[i];
+      card.appendChild(p);
+    }
+    post.appendChild(card);
+  });
+};
+
+createCards();
+
+// Add the new .post div to the container
+container.appendChild(post);
+
+</script>
 </html>
